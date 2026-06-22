@@ -1,6 +1,4 @@
-# ai-resume-analyzer
-
-# AI Resume Analyzer (PDF)
+# AI Resume Analyzer
 
 An AI-powered ATS Resume Analyzer built with n8n and OpenAI. Users upload a PDF resume and provide a job description through a web form. The workflow automatically extracts resume content, analyzes ATS compatibility, identifies missing skills, generates improvement recommendations, and emails a personalized report.
 
@@ -11,7 +9,7 @@ This project automates the resume screening process by comparing a candidate's r
 ## Features
 
 * PDF Resume Upload
-* Automatic Resume Text Extraction
+* Automatic PDF Text Extraction
 * AI-Powered ATS Analysis
 * Match Score Calculation
 * Missing Skills Detection
@@ -47,27 +45,27 @@ Email Delivery
 
 ### Workflow Canvas
 
-![Workflow Canvas](screenshots/workflow-canvas.png)
+![Workflow Canvas](documentation/workflow-canvas.png)
 
 ### Resume Upload Form
 
-![Resume Upload Form](screenshots/form-page.png)
+![Resume Upload Form](documentation/form-page.png)
 
 ### PDF Text Extraction
 
-![PDF Extraction](screenshots/pdf-extraction.png)
+![PDF Extraction](documentation/pdf-extraction.png)
 
 ### OpenAI ATS Analysis
 
-![OpenAI Analysis](screenshots/openai-analysis.png)
+![OpenAI Analysis](documentation/openai-analysis.png)
 
 ### Email Delivery Setup
 
-![Send Email](screenshots/send-email.png)
+![Send Email](documentation/send-email.png)
 
 ### Generated Email Report
 
-![Email Report](screenshots/email-report.png)
+![Email Report](documentation/email-report.png)
 
 ## Example Output
 
@@ -98,9 +96,6 @@ ATS Suggestions:
 - Add relevant cloud technologies
 - Include measurable achievements
 - Improve keyword alignment
-
-Improved Professional Summary:
-[AI-generated summary]
 ```
 
 ## Skills Demonstrated
@@ -131,5 +126,7 @@ This automation reduces the time required for resume reviews by automatically an
 **Kirstin Britany**
 
 Computer Engineering Graduate
+
 AI Automation Enthusiast
-Building AI-powered workflow automation solutions with n8n and OpenAI.
+
+Building AI-powered workflow automation solutions using n8n and OpenAI.
